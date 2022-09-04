@@ -1,4 +1,9 @@
 #!/bin/bash -
+###################################
+# Author: Xiaoyu Zhou
+# Email:  xyzh@biomed.au.dk
+###################################
+
 list="DNBseq/removePCR"
 DNB="USER/DNBseq"
         for file in `ls $list`
