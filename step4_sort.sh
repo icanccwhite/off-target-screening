@@ -1,3 +1,8 @@
+###################################
+# Author: Xiaoyu Zhou
+# Email:  xyzh@biomed.au.dk
+###################################
+
 awk '{print $10}' filtered_gencode.gtf|sed "s/\.[0-9]\+//g" - >new.gtf 
 /share/app/bedtools/bin/bedtools bamtobed -i subbam/5.bam >5.bed
 sort -k1,1 -k2,2n 5.bed > 5.sort.bed
