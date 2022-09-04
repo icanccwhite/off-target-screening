@@ -1,4 +1,9 @@
 #!/bin/bash -
+###################################
+# Author: Xiaoyu Zhou
+# Email:  xyzh@biomed.au.dk
+###################################
+
 list="DNBseq"
 echo "sh *.sh chr sort.bed"
 bed=$list/bed/$2
